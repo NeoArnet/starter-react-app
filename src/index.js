@@ -5,14 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  
-  const checkalert(e)=> {
-    alert(e);
+
+const checkalert = (e) => {
+    alert('The link was clicked.');
   }
+
   <React.StrictMode>
 //     <App />
   <p>Show Demo ReactJS</p>
-  <button onclick={(e)=>checkalert(e)}>click</button>
+<button onclick="checkalert(e)">
+  Activate Lasers
+</button>
   </React.StrictMode>,
   document.getElementById('root')
 );
