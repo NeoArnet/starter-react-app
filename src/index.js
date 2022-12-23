@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
 //     <App />
   <p>Show Demo ReactJS</p>
-  <button onclick{(e)=>checkalert(e)} value="click" />
+  <button onclick={(e)=>checkalert(e)}>click</button>
   </React.StrictMode>,
   document.getElementById('root')
 );
