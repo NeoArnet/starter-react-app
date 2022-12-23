@@ -5,9 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  
+  checkalert(e)=>{
+    alert(e);
+  }
   <React.StrictMode>
 //     <App />
   <p>Show Demo ReactJS</p>
+  <button onclick{(e)=>checkalert(e)}>Click</button>
   </React.StrictMode>,
   document.getElementById('root')
 );
