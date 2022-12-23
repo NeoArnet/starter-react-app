@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-
 const checkalert = (e) => {
     alert('The link was clicked.');
   }
+
+ReactDOM.render(
+
+
 
   <React.StrictMode>
 //     <App />
